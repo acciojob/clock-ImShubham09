@@ -1,12 +1,11 @@
-//your JS code here. If required.
 let timerdisplay = document.getElementById("timer");
 
-let currDate = new Date();
+let currentDate = new Date();
 
-setInterval()
-	function(){
-		currDate = new Date();
-		timerdisplay.innerHTML = currDate.toLocaleString();
-	},
-	1000
+setInterval(
+    function(){
+    currentDate = new Date();
+
+    timerdisplay.innerHTML = currentDate.toLocaleString();
+},1000
 );
