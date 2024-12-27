@@ -3,10 +3,10 @@ let timerdisplay = document.getElementById("timer");
 
 let currDate = new Date();
 
-setInterval{
+setInterval()
 	function(){
 		currDate = new Date();
 		timerdisplay.innerHTML = currDate.toLocaleString();
 	},
 	1000
-}
+);
